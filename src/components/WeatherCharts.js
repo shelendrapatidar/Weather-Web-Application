@@ -34,7 +34,7 @@ const WeatherCharts = () => {
     temperature: (item.main.temp - 273.15).toFixed(2),
     temp_min: (item.main.temp_min - 273.15).toFixed(2),
     temp_max: (item.main.temp_max - 273.15).toFixed(2),
-    pressure: item.main.pressure,
+    pressure: item.main.pressure/10,
     humidity: item.main.humidity,
     cloud: item.clouds.all,
     wind: item.wind.speed,
@@ -158,7 +158,7 @@ const WeatherCharts = () => {
           </Paper>
         </Grid>
 
-        <Grid item xs={12}>
+        {/* <Grid item xs={12}>
           <Paper elevation={3}>
             <Typography variant="h6" gutterBottom align="center">
               Visibility
@@ -179,7 +179,7 @@ const WeatherCharts = () => {
               </LineChart>
             </ResponsiveContainer>
           </Paper>
-        </Grid>
+        </Grid> */}
 
         <Grid item xs={12}>
           <Paper elevation={3}>

@@ -1,6 +1,4 @@
-import SignInForm from "./components/SignInForm";
 import Navbar from "./components/Navbar";
-import SignUpForm from "./components/SignUpForm";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
 import { Weather } from "./pages/Weather";
