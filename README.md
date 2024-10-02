@@ -24,7 +24,7 @@ git clone https://github.com/shelendrapatidar/Weather-Web-Application.git
 2. Go to that Directory
 
 ```bash
-cd Weather-Application
+cd Weather-Web-Application
 ```
 
 3. Install npm packages
