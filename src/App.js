@@ -12,8 +12,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<SignUpForm />} />
-        <Route path="/signin" element={<SignInForm />} />
         <Route path="/weather-forcast" element={<Weather />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
